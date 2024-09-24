@@ -1,0 +1,144 @@
+body{
+    background-image: url(/src/img/1.jpeg);
+    overflow: hidden;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: #a681a6;
+}
+
+.logo-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+header {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #f0ffff;
+}
+
+.logo h1 {
+    margin-left: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li {
+    padding: 10px 5px;
+}
+
+.menu li a {
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #f0ffff;
+}
+
+.menu li a:hover {
+    background-color: #4ec1c1;
+    color: #F0FFFF;
+}
+
+.img-perfil {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 30px 30px 45px #000000;
+}
+
+.container {
+    font-family: "Handjet", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #c8c8c8;
+    
+}
+
+.card h1 span {
+    word-spacing: 11rem;
+    font-size: 5rem;
+}
+
+.card h1 {
+    font-size: 4.5rem;
+    line-height: 0.25;
+}
+
+.ponto {
+color: #00CED1 ;
+}
+
+.card h2 {
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+
+.linguagens {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+   
+}
+
+.fundo-linguagens {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFAFA;
+    text-align: center;
+
+    background-color: #2bdadd;
+}
+
+
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif;
+    color: #F0FFFF;    
+}
+
+.rodape h2 {
+    font-size: 20px;
+}
+
+.rodape li img {
+    width: 25px;
+    height: 25px;
+}
+
+
+

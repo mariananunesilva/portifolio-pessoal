@@ -1,0 +1,117 @@
+body {
+    background-image: url(/src/img/1.jpeg);
+    overflow: hidden;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: #a681a6;
+}
+
+.logo-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+header {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #f0ffff;
+}
+
+.logo h1 {
+    margin-left: 5px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li {
+    padding: 10px 5px;
+}
+
+.menu li a {
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #f0ffff;
+}
+
+.menu li a:hover {
+    background-color: #4ec1c1;
+    color: #F0FFFF;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .card {
+    font-family: "Handjet", sans-serif;
+    max-height: 500px;
+    max-width: 400px;
+    border: solid #ffffff;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #00aca7;
+    text-align: center;
+    box-shadow: 5px 5px 15px #000000;
+    text-shadow: 2px 2px 5px #d3a4ff;
+    color: #ffffff;
+    overflow-y: auto;
+    word-wrap: break-word ;
+}
+
+main .card h2{
+    border-bottom: solid #48d1cc ;
+    color: #ffffff;
+}
+
+main .card p{
+    padding: 15px;
+    font-size: 23px;
+}
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Oswald", sans-serif;
+    color: #F0FFFF;    
+}
+
+.rodape h2 {
+    font-size: 20px;
+}
+
+.rodape li img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
